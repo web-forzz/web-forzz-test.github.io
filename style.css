@@ -1,0 +1,172 @@
+body{
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  height: 200vh;
+}
+header{
+  background-color: #f6f2f2;
+}
+.nav-menu{
+  width: 100%;
+  text-align: center;
+  display: block;
+  width: auto;
+  padding-top: 30px;
+  height: 50px;
+  background-color: #313030;
+  text-decoration: none;
+}
+ul li{
+  padding: 24.5px;
+  text-align: center;
+  display: inline;
+  list-style: none;
+}
+ul li:hover{
+border-bottom: 3px solid #ff3f40;
+transition: 0.2s;
+}
+.active-nav:hover{
+  padding-bottom: 24.5px;
+}
+.active-nav:hover{
+  border-bottom: 3px solid #313030;
+  transition: 0.2s;
+}
+a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.active-nav{
+  background-color: #ff3f40;
+  padding: 30px;
+  padding-top: 33px;
+  padding-bottom: 27.5px;
+
+}
+.header-h1{
+  font-size:50px;
+  font-weight:bold;
+  letter-spacing: 9px;
+  line-height: 1.3em;
+}
+.row{
+
+}
+.box-left-top{
+  float: left;
+  padding: 5%;
+  width: 50%;
+}
+.box-left-top p{
+  width: 70%;
+  padding: 5px;
+  line-height: 1.5em;
+}
+.box-left-top button{
+  background-color: #ff2d2d;
+  padding: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: white;
+  width: 20%;
+  border-radius: 5px;
+  border: 0px;
+}
+.box-right-top img{
+  width: 85%;
+  display: block;
+  box-shadow: 0px 0px 90px -2px rgba(0,0,0,0.75);
+}
+.box-right-top{
+  margin-left: 60%;
+  padding-top: 5%;
+
+}
+.header-btn:hover{
+  cursor: pointer;
+}
+.box-info{
+  display: block;
+  height: 32em;
+  box-shadow: 0px 1px 5px 0px #cbc5c5;
+}
+.container {
+  margin-left: 5%;
+  margin-right: 6%;
+  display: grid;
+  grid-template-columns:  2fr 1fr 1fr;
+  grid-template-rows: 250px 250px;
+  grid-gap: 1rem;
+}
+.first-block{
+  height: 50%;
+  box-shadow: 0px 1px 5px 0px #cbc5c5;
+}
+.item {
+  color: black;
+}
+
+*[class^="revealator"] {
+    display: inline-block;
+    height: auto;
+    margin: 0 auto 15px;
+    width: 26%;
+}
+.item1{
+  grid-row: 1 / 3;
+}
+i{
+  padding-left: 5px;
+  color: #ff2d2d;
+}
+.px1{
+  padding: 5px;
+  line-height: 1.5em;
+  font-family: Verdana sans-serif;
+  color: #4a4747;
+}
+.container span{
+  padding: 5px;
+}
+.item1 h1{
+  font-size: 46px;
+  line-height: 1.5em;
+}
+.item1 p{
+  margin-right: 20%;
+  line-height: 1.5em;
+}
+.item1 button{
+  padding: 10px;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 4px;
+  color: red;
+  padding-left:  5%;
+  padding-right: 5%;
+}
+.item1 button:hover{
+  cursor: pointer;
+}
+.container-2 h1{
+  margin-top: 2%;
+  color: #4a4747;
+  text-align: center;
+  font-size: 48px;
+}
+.container-2 p{
+  text-align: center;
+  line-height: 1.5em;
+  font-family: Verdana sans-serif;
+  color: #4a4747;
+}
+.red-hr{
+  text-align: center;
+  width: 130px;
+  height: 3px;
+  background-color: red;
+  margin-left: 45%;
+}
